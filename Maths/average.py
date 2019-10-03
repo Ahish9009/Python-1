@@ -1,10 +1,8 @@
 def average(nums):
     sum = 0
-    n = 0
     for x in nums:
       sum += x
-      n += 1
-    avg = sum / n
+    avg = sum / len(nums)
     print(avg)
 
 def main():
